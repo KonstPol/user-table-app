@@ -1,0 +1,42 @@
+.tableWrapper {
+  min-width: 76rem;
+  height: 47rem;
+  border-top: 1px solid #ddd;
+  box-shadow: 3px 3px 10px 0px #333;
+  overflow-x: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  position: sticky;
+  top: 0;
+  background-color: #007acc;
+  color: #131;
+  width: 9.5rem;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  z-index: 99999;
+}
+
+.tableHeader span {
+  display: inline-block;
+}
+
+.tableBody td {
+  padding: 1rem;
+  text-align: left;
+  color: #121;
+  border: 1px solid #ddd;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+
+.down {
+  transform: rotate(0);
+}
